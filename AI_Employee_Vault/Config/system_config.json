@@ -1,0 +1,13 @@
+{
+  "claude_path": "claude",
+  "gemini_api_key": "AIzaSyAfPyOoWw0v3ysF0M_MhCd_0tHvm3dDZps",
+  "fallback_to_gemini": true,
+  "check_interval": 60,
+  "max_iterations": 5,
+  "dry_run": true,
+  "vault_path": "D:/Autonomous-FTE-System/AI_Employee_Vault",
+  "drop_folder": "D:/Autonomous-FTE-System/Drop_Folder",
+  "skills_path": "D:/Autonomous-FTE-System/.claude/skills",
+  "debug": false,
+  "log_level": "INFO"
+}
