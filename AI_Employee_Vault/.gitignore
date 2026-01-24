@@ -1,0 +1,22 @@
+
+# Secrets
+.env
+*.key
+*.pem
+credentials.json
+token.json
+
+# System files
+.DS_Store
+Thumbs.db
+__pycache__/
+*.pyc
+
+# Logs
+logs/
+*.log
+
+# Temporary files
+temp/
+tmp/
+    
