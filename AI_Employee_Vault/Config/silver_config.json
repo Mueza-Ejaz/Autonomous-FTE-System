@@ -1,0 +1,77 @@
+{
+  "version": "2.0",
+  "tier": "silver",
+  "description": "Silver Tier Configuration",
+
+  "watchers": {
+    "filesystem": {
+      "enabled": true,
+      "interval": 60,
+      "watch_folder": "Drop_Folder",
+      "file_types": [".txt", ".pdf", ".doc", ".docx", ".md", ".csv"]
+    },
+    "gmail": {
+      "enabled": true,
+      "interval": 120,
+      "priority_keywords": ["urgent", "invoice", "payment", "asap", "important"],
+      "important_senders": ["client", "customer", "boss", "ceo"]
+    },
+    "whatsapp": {
+      "enabled": true,
+      "interval": 45,
+      "business_keywords": ["invoice", "payment", "order", "quote", "meeting"],
+      "priority_contacts": ["client", "customer", "team", "manager"]
+    }
+  },
+
+  "mcp_servers": {
+    "email": {
+      "enabled": true,
+      "smtp_server": "smtp.gmail.com",
+      "smtp_port": 587,
+      "require_approval": true
+    },
+    "filesystem": {
+      "enabled": true
+    }
+  },
+
+  "scheduling": {
+    "linkedin_posting": {
+      "enabled": true,
+      "times": ["09:00", "12:00", "17:00"],
+      "post_types": ["business_update", "project_showcase", "learning_share"]
+    },
+    "daily_briefing": {
+      "enabled": true,
+      "time": "08:00",
+      "include": ["tasks", "emails", "whatsapp", "linkedin"]
+    },
+    "weekly_audit": {
+      "enabled": false,
+      "day": "sunday",
+      "time": "22:00"
+    }
+  },
+
+  "claude": {
+    "model": "claude-3-5-sonnet-20241022",
+    "max_tokens": 4000,
+    "temperature": 0.7,
+    "skills": [
+      "email_handler",
+      "whatsapp_manager",
+      "linkedin_poster",
+      "file_processor",
+      "task_planner",
+      "business_analyst"
+    ]
+  },
+
+  "security": {
+    "dry_run": true,
+    "approval_required": ["email_send", "whatsapp_reply", "linkedin_post"],
+    "max_actions_per_hour": 10,
+    "encrypt_logs": false
+  }
+}
