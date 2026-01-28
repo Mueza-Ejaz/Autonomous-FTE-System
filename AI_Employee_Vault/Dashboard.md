@@ -1,23 +1,42 @@
 ---
 type: dashboard
-last_updated: 2026-01-07
-status: active
+tier: silver
+last_updated: 2026-01-28T07:33:30.487306
+version: 2.0
 ---
 
-# AI Employee Dashboard
+# SILVER TIER AI EMPLOYEE DASHBOARD
 
 ## System Status
-- ✅ Claude Code: Running
-- ✅ Obsidian Vault: Active
-- 🔄 Watchers: Starting
+OK **Enhanced Orchestrator**: Running
+OK **Multiple Watchers**: 3 active
+OK **MCP Servers**: 1 running
+OK **Scheduled Tasks**: 1 configured
+OK **Claude Processor**: Active
 
-## Recent Activities
-- No activities yet
+## Task Summary
+| Status | Count |
+|--------|-------|
+| Needs Action | 0 |
+| Pending Approval | 0 |
+| In Progress | 0 |
+| Completed | 0 |
 
-## Pending Actions
-- No pending actions
+## Active Watchers
+- File System Watcher: OK Running
+- Gmail Watcher: OK Running
+- WhatsApp Watcher: OK Running
 
-## Quick Stats
-- Tasks Processed: 0
-- Approvals Needed: 0
-- Errors: 0
+## MCP Servers
+- Email MCP: OK Running
+- Filesystem MCP: OK Built-in
+
+## Scheduled Tasks
+- LinkedIn Posting: OK Scheduled
+- Daily Briefing: OK Scheduled
+
+## Recent Activity
+No recent activity
+
+---
+*Silver Tier AI Employee v2.0 - 2026-01-28 07:33*

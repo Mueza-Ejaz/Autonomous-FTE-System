@@ -1,0 +1,14 @@
+# Demo Task for Silver Tier System
+
+This is a demonstration task to show the Silver tier system in action.
+
+## Content:
+- File monitoring system should detect this file
+- Create a task in Needs_Action folder
+- Process with AI (Claude or Gemini fallback)
+- Update dashboard automatically
+
+## Expected Result:
+- Task file should be created in Needs_Action
+- Dashboard should show updated counts
+- System logs should record the activity

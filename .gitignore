@@ -79,3 +79,7 @@ tmp/
 private/
 secret/
 config/local.json
+gmail_credentials.json
+token.pickle
+gmail_token.pickle
+credentials.json
