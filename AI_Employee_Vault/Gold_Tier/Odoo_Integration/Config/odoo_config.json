@@ -1,0 +1,20 @@
+{
+  "odoo_config": {
+    "url": "http://localhost:8069",
+    "database": "ai_employee_gold",
+    "username": "admin",
+    "password": "",
+    "api_key": "",
+    "modules": [
+      "account",
+      "sale",
+      "crm",
+      "project",
+      "hr"
+    ],
+    "connection_timeout": 30,
+    "retry_attempts": 3,
+    "sync_frequency": "daily",
+    "log_level": "INFO"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "instagram_account_id": "",
+  "access_token": "",
+  "app_id": "",
+  "app_secret": "",
+  "post_schedule": {
+    "monday": [
+      "08:00",
+      "12:00",
+      "17:00"
+    ],
+    "tuesday": [
+      "08:00",
+      "12:00",
+      "17:00"
+    ],
+    "wednesday": [
+      "08:00",
+      "12:00",
+      "17:00"
+    ],
+    "thursday": [
+      "08:00",
+      "12:00",
+      "17:00"
+    ],
+    "friday": [
+      "08:00",
+      "12:00",
+      "17:00"
+    ]
+  },
+  "default_hashtags": [
+    "#AI",
+    "#Automation",
+    "#Business",
+    "#Tech"
+  ],
+  "engagement_monitoring": true,
+  "auto_hashtag_generation": true
+}

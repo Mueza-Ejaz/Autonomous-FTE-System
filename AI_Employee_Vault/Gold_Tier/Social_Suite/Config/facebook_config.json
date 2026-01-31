@@ -1,0 +1,22 @@
+{
+  "page_id": "",
+  "access_token": "",
+  "app_id": "",
+  "app_secret": "",
+  "post_schedule": {
+    "monday": [
+      "09:00",
+      "15:00"
+    ],
+    "wednesday": [
+      "09:00",
+      "15:00"
+    ],
+    "friday": [
+      "09:00",
+      "15:00"
+    ]
+  },
+  "default_hashtags": [],
+  "engagement_monitoring": true
+}

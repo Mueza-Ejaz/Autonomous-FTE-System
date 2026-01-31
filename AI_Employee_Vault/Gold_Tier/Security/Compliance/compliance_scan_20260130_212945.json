@@ -1,0 +1,25 @@
+{
+  "scan_date": "2026-01-30T21:29:45.524692",
+  "framework": "automated_scan",
+  "controls_checked": 3,
+  "issues_found": [],
+  "passed_controls": [],
+  "failed_controls": [
+    {
+      "control_id": "ACCESS_001",
+      "status": "non_compliant",
+      "last_assessment": "2026-01-30T21:29:45.502878"
+    },
+    {
+      "control_id": "DATA_001",
+      "status": "non_compliant",
+      "last_assessment": "2026-01-30T21:29:45.498880"
+    },
+    {
+      "control_id": "INCIDENT_001",
+      "status": "pending",
+      "last_assessment": null
+    }
+  ],
+  "compliance_percentage": 0.0
+}

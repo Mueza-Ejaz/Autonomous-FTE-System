@@ -1,0 +1,65 @@
+{
+  "data_patterns": {
+    "personal_identifiers": [
+      "ssn",
+      "social_security",
+      "national_id",
+      "passport",
+      "driver_license"
+    ],
+    "financial_data": [
+      "credit_card",
+      "bank_account",
+      "routing_number",
+      "paypal",
+      "stripe"
+    ],
+    "health_information": [
+      "medical_record",
+      "health_insurance",
+      "patient_id",
+      "diagnosis",
+      "treatment"
+    ],
+    "biometric_data": [
+      "fingerprint",
+      "face_scan",
+      "iris_scan",
+      "voice_print",
+      "dna"
+    ],
+    "credentials": [
+      "password",
+      "api_key",
+      "access_token",
+      "refresh_token",
+      "secret"
+    ]
+  },
+  "classification_levels": {
+    "public": {
+      "description": "Publicly available information",
+      "handling_requirements": "No special handling required",
+      "retention_period_days": 3650,
+      "encryption_required": false
+    },
+    "internal": {
+      "description": "Internal business information",
+      "handling_requirements": "Access limited to employees",
+      "retention_period_days": 1825,
+      "encryption_required": true
+    },
+    "confidential": {
+      "description": "Confidential business information",
+      "handling_requirements": "Need-to-know basis only",
+      "retention_period_days": 730,
+      "encryption_required": true
+    },
+    "restricted": {
+      "description": "Highly sensitive information",
+      "handling_requirements": "Strict access controls, audit required",
+      "retention_period_days": 365,
+      "encryption_required": true
+    }
+  }
+}

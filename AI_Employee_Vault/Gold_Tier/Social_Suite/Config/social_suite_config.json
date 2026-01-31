@@ -1,0 +1,25 @@
+{
+  "cross_platform_posting": true,
+  "auto_hashtag_generation": true,
+  "engagement_monitoring": true,
+  "content_calendar": true,
+  "analytics_reporting": true,
+  "posting_schedule": {
+    "facebook": [
+      "09:00",
+      "15:00"
+    ],
+    "instagram": [
+      "08:00",
+      "12:00",
+      "17:00"
+    ],
+    "twitter": [
+      "07:00",
+      "12:00",
+      "17:00"
+    ]
+  },
+  "default_timezone": "UTC",
+  "content_approval_required": true
+}

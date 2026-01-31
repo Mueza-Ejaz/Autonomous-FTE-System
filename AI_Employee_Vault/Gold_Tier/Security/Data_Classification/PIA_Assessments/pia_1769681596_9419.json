@@ -1,0 +1,23 @@
+{
+  "assessment_id": "pia_1769681596_9419",
+  "processing_activity": "Customer Account Management",
+  "assessment_date": "2026-01-29T15:13:16.372231",
+  "data_types_involved": [],
+  "data_subjects": [],
+  "purposes": [],
+  "necessity_evaluation": {
+    "lawful_basis_valid": true,
+    "purpose_specified": true,
+    "data_minimized": true,
+    "storage_limitation_applied": true
+  },
+  "risk_assessment": {
+    "high_risks": [],
+    "medium_risks": [],
+    "mitigation_measures": [],
+    "residual_risk_level": "low"
+  },
+  "recommended_measures": [],
+  "approval_status": "pending",
+  "review_date": "2027-01-29T15:13:16.372231"
+}

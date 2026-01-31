@@ -1,0 +1,18 @@
+{
+  "report_date": "2026-01-30T21:25:46.265087",
+  "data_inventory_summary": {
+    "total_datasets": 0,
+    "sensitive_datasets": 0,
+    "by_classification": {}
+  },
+  "processing_activities": 2,
+  "recent_pi_as": 1,
+  "data_breaches": [],
+  "compliance_status": "partial",
+  "recommendations": [
+    "Review and update data classification rules",
+    "Conduct regular data discovery scans",
+    "Implement automated retention policies",
+    "Review and update privacy notices"
+  ]
+}

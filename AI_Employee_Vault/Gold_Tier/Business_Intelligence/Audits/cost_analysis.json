@@ -1,0 +1,77 @@
+{
+  "total_monthly_expenses": 2100,
+  "expense_categories": {
+    "subscriptions": {
+      "amount": 800,
+      "percentage": 38.1,
+      "providers": [
+        "AWS",
+        "Slack",
+        "Notion",
+        "GitHub"
+      ]
+    },
+    "software_licenses": {
+      "amount": 450,
+      "percentage": 21.4,
+      "providers": [
+        "Adobe",
+        "Microsoft",
+        "Specialized Tools"
+      ]
+    },
+    "services": {
+      "amount": 350,
+      "percentage": 16.7,
+      "providers": [
+        "Freelancers",
+        "Consultants",
+        "Contractors"
+      ]
+    },
+    "utilities": {
+      "amount": 250,
+      "percentage": 11.9,
+      "providers": [
+        "Internet",
+        "Electricity",
+        "Phone"
+      ]
+    },
+    "miscellaneous": {
+      "amount": 250,
+      "percentage": 11.9,
+      "providers": [
+        "Office Supplies",
+        "Meals",
+        "Travel"
+      ]
+    }
+  },
+  "optimization_opportunities": [
+    {
+      "opportunity": "Consolidate cloud services",
+      "potential_savings_monthly": 150,
+      "implementation_effort": "medium",
+      "timeline": "2-4 weeks",
+      "description": "Evaluate if we can consolidate AWS services or negotiate better rates"
+    },
+    {
+      "opportunity": "Review subscription usage",
+      "potential_savings_monthly": 100,
+      "implementation_effort": "low",
+      "timeline": "1-2 weeks",
+      "description": "Audit all subscriptions for usage and eliminate unused services"
+    },
+    {
+      "opportunity": "Negotiate software licenses",
+      "potential_savings_monthly": 200,
+      "implementation_effort": "high",
+      "timeline": "4-8 weeks",
+      "description": "Renegotiate enterprise license agreements for better rates"
+    }
+  ],
+  "total_potential_savings": 450,
+  "savings_percentage": 21.4,
+  "analysis_date": "2026-01-31T08:26:05.533692"
+}

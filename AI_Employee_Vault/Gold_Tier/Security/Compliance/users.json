@@ -1,0 +1,25 @@
+{
+  "system": {
+    "name": "System Account",
+    "role": "system",
+    "permissions": [
+      "admin",
+      "access_sensitive_data"
+    ],
+    "created_at": "2026-01-31T15:35:09.202095",
+    "last_login": null,
+    "active": true
+  },
+  "admin": {
+    "name": "Administrator",
+    "role": "admin",
+    "permissions": [
+      "admin",
+      "manage_users",
+      "view_audit_logs"
+    ],
+    "created_at": "2026-01-31T15:35:09.202095",
+    "last_login": null,
+    "active": true
+  }
+}
