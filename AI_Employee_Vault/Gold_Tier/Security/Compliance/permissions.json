@@ -1,0 +1,64 @@
+{
+  "read": {
+    "description": "Read access to resources",
+    "inherits": []
+  },
+  "write": {
+    "description": "Write access to resources",
+    "inherits": [
+      "read"
+    ]
+  },
+  "execute": {
+    "description": "Execute/run capabilities",
+    "inherits": [
+      "read"
+    ]
+  },
+  "delete": {
+    "description": "Delete resources",
+    "inherits": [
+      "read",
+      "write"
+    ]
+  },
+  "admin": {
+    "description": "Administrative privileges",
+    "inherits": [
+      "read",
+      "write",
+      "execute",
+      "delete"
+    ]
+  },
+  "modify_permissions": {
+    "description": "Modify permissions and roles",
+    "inherits": [
+      "admin"
+    ]
+  },
+  "view_audit_logs": {
+    "description": "Access to audit logs",
+    "inherits": [
+      "admin"
+    ]
+  },
+  "manage_users": {
+    "description": "User management capabilities",
+    "inherits": [
+      "admin"
+    ]
+  },
+  "access_sensitive_data": {
+    "description": "Access to sensitive information",
+    "inherits": [
+      "admin"
+    ]
+  },
+  "bypass_approval": {
+    "description": "Bypass approval processes",
+    "inherits": [
+      "admin"
+    ]
+  }
+}

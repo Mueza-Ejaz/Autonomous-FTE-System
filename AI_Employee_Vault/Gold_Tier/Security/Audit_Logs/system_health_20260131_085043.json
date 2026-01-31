@@ -1,0 +1,108 @@
+{
+  "overall_status": "critical",
+  "components": [
+    {
+      "component": "cpu",
+      "status": "critical",
+      "metrics": {
+        "usage_percent": 91.1,
+        "core_count": 4,
+        "load_average": []
+      },
+      "timestamp": "2026-01-31T08:50:34.300689"
+    },
+    {
+      "component": "memory",
+      "status": "critical",
+      "metrics": {
+        "total_gb": 3.47,
+        "available_gb": 0.34,
+        "used_gb": 3.12,
+        "usage_percent": 90.1,
+        "available_percent": 9.900000000000006
+      },
+      "timestamp": "2026-01-31T08:50:34.307429"
+    },
+    {
+      "component": "disk",
+      "status": "healthy",
+      "metrics": {
+        "total_gb": 197.12,
+        "used_gb": 93.8,
+        "free_gb": 103.32,
+        "usage_percent": 47.6
+      },
+      "timestamp": "2026-01-31T08:50:34.311446"
+    },
+    {
+      "component": "network",
+      "status": "healthy",
+      "metrics": {
+        "bytes_sent_per_sec": 2662,
+        "bytes_recv_per_sec": 88243,
+        "mb_sent_per_sec": 0.02,
+        "mb_recv_per_sec": 0.67,
+        "total_mb_per_sec": 0.6900000000000001
+      },
+      "timestamp": "2026-01-31T08:50:35.401771"
+    },
+    {
+      "component": "processes",
+      "status": "healthy",
+      "metrics": {
+        "critical_processes_running": 1,
+        "watched_processes": [
+          {
+            "pid": 1772,
+            "name": "python.exe",
+            "status": "running",
+            "cpu_percent": 22.2,
+            "memory_percent": 0.7249039144811382
+          }
+        ],
+        "total_processes": 153
+      },
+      "timestamp": "2026-01-31T08:50:38.885348"
+    },
+    {
+      "component": "database",
+      "status": "healthy",
+      "metrics": {
+        "connected": true,
+        "response_time_ms": 25,
+        "connections": 5,
+        "max_connections": 100
+      },
+      "timestamp": "2026-01-31T08:50:38.885348"
+    },
+    {
+      "component": "mcp_servers",
+      "status": "warning",
+      "metrics": {
+        "healthy_servers": 0,
+        "total_servers": 2,
+        "servers": [
+          {
+            "name": "email_mcp",
+            "port": 8068,
+            "running": false,
+            "expected_running": true
+          },
+          {
+            "name": "odoo_mcp",
+            "port": 8070,
+            "running": false,
+            "expected_running": true
+          }
+        ]
+      },
+      "timestamp": "2026-01-31T08:50:43.566291"
+    }
+  ],
+  "timestamp": "2026-01-31T08:50:43.566291",
+  "summary": {
+    "critical": 2,
+    "warning": 1,
+    "healthy": 4
+  }
+}

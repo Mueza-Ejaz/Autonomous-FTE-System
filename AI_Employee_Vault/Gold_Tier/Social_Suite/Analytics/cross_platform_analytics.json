@@ -1,0 +1,58 @@
+{
+  "overview": {
+    "total_followers": 0,
+    "total_recent_posts": 0,
+    "total_recent_engagement": 0,
+    "overall_engagement_rate": 0.0,
+    "platforms_tracked": 3
+  },
+  "platform_breakdown": {
+    "facebook": {
+      "page_name": "Not Available",
+      "followers": 0,
+      "talking_about": 0,
+      "recent_posts_count": 0,
+      "recent_likes": 0,
+      "recent_comments": 0,
+      "engagement_rate": 0,
+      "updated_at": "2026-01-31T08:26:29.490179"
+    },
+    "instagram": {
+      "username": "Not Available",
+      "followers": 0,
+      "following": 0,
+      "total_posts": 0,
+      "recent_media_count": 0,
+      "recent_likes": 0,
+      "recent_comments": 0,
+      "engagement_rate": 0,
+      "account_type": "Unknown",
+      "engagement_insights": null,
+      "updated_at": "2026-01-31T08:26:29.500402"
+    },
+    "twitter": {
+      "username": "Not Available",
+      "display_name": "Not Available",
+      "followers": 0,
+      "following": 0,
+      "tweets_count": 0,
+      "recent_tweets_count": 0,
+      "recent_likes": 0,
+      "recent_retweets": 0,
+      "recent_replies": 0,
+      "recent_quotes": 0,
+      "engagement_rate": 0,
+      "account_created": "Unknown",
+      "updated_at": "2026-01-31T08:26:29.503524"
+    }
+  },
+  "comparison": {
+    "top_performing_platform": "facebook",
+    "engagement_by_platform": {
+      "facebook": 0,
+      "instagram": 0,
+      "twitter": 0
+    }
+  },
+  "updated_at": "2026-01-31T08:26:29.503524"
+}

@@ -1,0 +1,11 @@
+{
+  "error_id": "ERR_1769790480_9315",
+  "timestamp": "2026-01-30T21:28:00.948353",
+  "error_type": "ConnectionError",
+  "error_message": "Failed to connect to external service",
+  "traceback": "Traceback (most recent call last):\n  File \"D:\\Autonomous-FTE-System\\error_recovery_system.py\", line 472, in test_error_recovery_system\n    raise ConnectionError(\"Failed to connect to external service\")\nConnectionError: Failed to connect to external service\n",
+  "context": {
+    "service": "external_api",
+    "operation": "connect"
+  },
+  "severity": 

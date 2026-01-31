@@ -1,0 +1,29 @@
+{
+  "task_id": "f6efd49c-a429-470e-93d2-0bd24224cc3a",
+  "name": "Example Multi-Step Task",
+  "description": "This is an example of a multi-step task that demonstrates the Ralph Wiggum autonomy engine",
+  "status": "completed",
+  "priority": "normal",
+  "created_at": "2026-01-29T14:40:02.224326",
+  "started_at": "2026-01-29T14:40:02.232352",
+  "completed_at": "2026-01-29T14:40:05.290728",
+  "current_step": 3,
+  "checkpoints": [],
+  "state_data": {
+    "initialized": true,
+    "data": {
+      "items": [
+        "Item 1"
+      ],
+      "counter": 1
+    },
+    "step_0_result": "Initialized successfully",
+    "step_1_result": "Processed item 1",
+    "final_result": "Completed with 1 items processed",
+    "step_2_result": "Completed with 1 items processed"
+  },
+  "result": "Completed with 1 items processed",
+  "error": null,
+  "max_retries": 3,
+  "retry_count": 0
+}
