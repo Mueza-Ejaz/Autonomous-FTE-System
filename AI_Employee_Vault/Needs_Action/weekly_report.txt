@@ -1,0 +1,2 @@
+Draft and send a weekly status update to 'manager@techstream.com'. 
+Mention design completion, backend start, and 60% progress.

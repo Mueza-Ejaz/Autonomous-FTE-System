@@ -46,7 +46,7 @@ priority: medium
 status: pending
 ---
 
-# 📁 New File Detected: {file_path.name}
+# New File Detected: {file_path.name}
 
 ## File Information
 - **Name**: {file_path.name}
@@ -54,20 +54,13 @@ status: pending
 - **Size**: {file_path.stat().st_size} bytes
 - **Location**: {str(file_path)}
 
-## Suggested Actions
-- [ ] Review file content
-- [ ] Categorize file
-- [ ] Process file as needed
-- [ ] Move to appropriate folder
-- [ ] Notify relevant parties
-
 ## Processing Instructions
 1. Read the file content
 2. Determine what type of file it is
 3. Decide appropriate action
-4. Create a plan in /Plans/ folder
 """
-        task_file.write_text(content)
+        with open(task_file, 'w', encoding='utf-8') as f:
+            f.write(content)
         self.logger.info(f"Created task for new file: {file_path.name}")
 
         # Move file to vault for processing
@@ -86,7 +79,7 @@ def start_file_watcher(vault_path, watch_folder):
     print(f"Monitoring: {watch_folder}")
     print(f"Check interval: {watcher.check_interval} seconds")
     print("Drop files in the watch folder to trigger tasks.")
-    # watcher.run()  # Commented out for testing purposes
+    watcher.run()  # Uncommented for production use
 
 if __name__ == "__main__":
     # Configure these paths

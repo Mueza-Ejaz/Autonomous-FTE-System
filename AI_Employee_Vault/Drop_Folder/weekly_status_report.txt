@@ -1,0 +1,11 @@
+---
+type: business_report
+priority: medium
+client: "TechStream Solutions"
+---
+Please draft and send a weekly status update to 'manager@techstream.com'. 
+Mention that:
+1. We have completed the UI design phase.
+2. We are starting the Backend integration tomorrow.
+3. The project is 60% complete and on schedule.
+Subject should be: "Weekly Status Update - TechStream Project"

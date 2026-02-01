@@ -1,42 +1,33 @@
 ---
 type: dashboard
-tier: silver
-last_updated: 2026-01-28T07:33:30.487306
-version: 2.0
+last_updated: 2026-02-01 09:51:56
+status: active
 ---
 
-# SILVER TIER AI EMPLOYEE DASHBOARD
+# AI Employee Dashboard (Bronze Tier)
 
 ## System Status
-OK **Enhanced Orchestrator**: Running
-OK **Multiple Watchers**: 3 active
-OK **MCP Servers**: 1 running
-OK **Scheduled Tasks**: 1 configured
-OK **Claude Processor**: Active
+- ✅ Claude Code: Running
+- ✅ Obsidian Vault: Active
+- 🔄 File Watcher: Monitoring
+- 📊 Orchestrator: Active
+- 🤖 AI Engine: Claude/Gemini
 
 ## Task Summary
-| Status | Count |
-|--------|-------|
-| Needs Action | 0 |
-| Pending Approval | 0 |
-| In Progress | 0 |
-| Completed | 0 |
+- **Needs Action**: 0
+- **Pending Approval**: 0
+- **Completed Tasks**: 6
 
-## Active Watchers
-- File System Watcher: OK Running
-- Gmail Watcher: OK Running
-- WhatsApp Watcher: OK Running
+## Recent Activities
+- 2026-02-01T08:52:31.546011: gemini_email_execution
+- 2026-02-01T09:39:05.520549: gemini_email_execution
+- 2026-02-01T09:41:09.172441: gemini_email_execution
+- 2026-02-01T09:51:56.202863: gemini_email_execution
 
-## MCP Servers
-- Email MCP: OK Running
-- Filesystem MCP: OK Built-in
-
-## Scheduled Tasks
-- LinkedIn Posting: OK Scheduled
-- Daily Briefing: OK Scheduled
-
-## Recent Activity
-No recent activity
+## Quick Stats
+- Tasks Processed: 6
+- Approvals Needed: 0
+- System Uptime: 0h 0m
 
 ---
-*Silver Tier AI Employee v2.0 - 2026-01-28 07:33*
+*Last updated automatically by AI Employee*
