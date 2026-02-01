@@ -1,0 +1,28 @@
+{
+  "record_id": "processing_record_1769790346_2682",
+  "data_subject": "Customer Data Processing",
+  "data_categories": [
+    "personal_data",
+    "financial_data"
+  ],
+  "processing_purposes": [
+    "service_provision",
+    "billing"
+  ],
+  "legal_basis": "contract_performance",
+  "processing_start_date": "2026-01-30T21:25:46.263710",
+  "data_recipients": [],
+  "international_transfers": false,
+  "retention_period": 90,
+  "security_measures": [
+    "encryption",
+    "access_controls",
+    "audit_logging"
+  ],
+  "data_subject_rights": [
+    "access",
+    "rectification",
+    "erasure",
+    "portability"
+  ]
+}

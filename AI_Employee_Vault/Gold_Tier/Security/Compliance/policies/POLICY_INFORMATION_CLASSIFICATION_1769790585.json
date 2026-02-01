@@ -1,0 +1,12 @@
+{
+  "policy_id": "POLICY_INFORMATION_CLASSIFICATION_1769790585",
+  "name": "Information Classification",
+  "framework": "ISO/IEC 27001",
+  "version": "1.0",
+  "content": "\n    Information Classification Policy\n\n    1. Purpose\n    This policy establishes the framework for classifying information assets.\n\n    2. Scope\n    Applies to all employees and contractors handling company information.\n\n    3. Classification Levels\n    - Public: Information that can be shared externally\n    - Internal: Information for internal use only\n    - Confidential: Sensitive information requiring protection\n    - Restricted: Highly sensitive information with strict access controls\n    ",
+  "created_date": "2026-01-30T21:29:45.521692",
+  "last_updated": "2026-01-30T21:29:45.521692",
+  "approved_by": "",
+  "approval_date": "",
+  "review_date": "2027-01-30T21:29:45.521692"
+}

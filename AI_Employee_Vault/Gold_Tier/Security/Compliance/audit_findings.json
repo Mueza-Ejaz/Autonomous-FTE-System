@@ -1,0 +1,20 @@
+[
+  {
+    "finding_id": "finding_1769790585_1288",
+    "control_id": "ACCESS_001",
+    "timestamp": "2026-01-30T21:29:45.502878",
+    "severity": "high",
+    "description": "Weak password policy detected",
+    "remediation_steps": [
+      "Update password policy",
+      "Implement MFA",
+      "Conduct user training"
+    ],
+    "owner": "Security Team",
+    "status": "closed",
+    "due_date": "2026-03-01T21:29:45.502878",
+    "closure_date": "2026-01-30T21:29:45.509882",
+    "closure_reason": "Implemented MFA and updated password policy",
+    "closed_by": "system"
+  }
+]

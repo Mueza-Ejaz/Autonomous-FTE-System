@@ -1,0 +1,77 @@
+{
+  "report_date": "2026-01-30T21:29:45.512684",
+  "framework": "all",
+  "summary": {
+    "framework": "all",
+    "total_controls": 3,
+    "compliant": 0,
+    "non_compliant": 2,
+    "pending": 1,
+    "compliance_percentage": 0.0,
+    "status": "non_compliant",
+    "next_reviews_due": [
+      {
+        "control_id": "INCIDENT_001",
+        "control_name": "Responsibility and Procedures",
+        "due_date": "2026-03-01T21:29:45.461894",
+        "days_until_due": 29
+      }
+    ]
+  },
+  "detailed_status": {
+    "ACCESS_001": {
+      "control_name": "Access Control Policy",
+      "category": "access_control",
+      "status": "non_compliant",
+      "last_assessment": "2026-01-30T21:29:45.502878",
+      "next_review_due": "2027-01-30T21:29:45.502878",
+      "notes": "Audit finding finding_1769790585_1288 identified",
+      "evidence": []
+    },
+    "DATA_001": {
+      "control_name": "Classification of Information",
+      "category": "data_protection",
+      "status": "non_compliant",
+      "last_assessment": "2026-01-30T21:29:45.498880",
+      "next_review_due": "2026-04-30T21:29:45.498880",
+      "notes": "Classification scheme needs updates",
+      "evidence": []
+    },
+    "INCIDENT_001": {
+      "control_name": "Responsibility and Procedures",
+      "category": "incident_response",
+      "status": "pending",
+      "last_assessment": null,
+      "next_review_due": "2026-03-01T21:29:45.461894",
+      "notes": "",
+      "evidence": []
+    }
+  },
+  "findings_summary": {
+    "total_findings": 1,
+    "by_severity": {
+      "critical": 0,
+      "high": 1,
+      "medium": 0,
+      "low": 0
+    },
+    "by_status": {
+      "open": 0,
+      "in_progress": 0,
+      "closed": 1
+    },
+    "open_findings": 0,
+    "critical_findings": 0
+  },
+  "recommendations": [
+    {
+      "priority": "high",
+      "title": "Address Non-Compliant Controls",
+      "description": "There are 2 non-compliant controls that need immediate attention",
+      "controls": [
+        "Access Control Policy",
+        "Classification of Information"
+      ]
+    }
+  ]
+}

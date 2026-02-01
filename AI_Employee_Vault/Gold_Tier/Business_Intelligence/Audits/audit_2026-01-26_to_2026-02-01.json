@@ -1,0 +1,87 @@
+{
+  "audit_date": "2026-01-31T08:26:05.523529",
+  "period": {
+    "start": "2026-01-26",
+    "end": "2026-02-01"
+  },
+  "metrics": {
+    "period_start": "2026-01-26",
+    "period_end": "2026-02-01",
+    "revenue": {
+      "this_week": 1800,
+      "target": 2500.0,
+      "variance": -700.0,
+      "trend": "negative"
+    },
+    "expenses": {
+      "this_week": 450,
+      "budget": 1250.0,
+      "variance": -800.0,
+      "trend": "positive"
+    },
+    "profit": {
+      "this_week": 1350,
+      "margin": 75.0
+    },
+    "operations": {
+      "task_completion_rate": 0.85,
+      "target_rate": 0.95,
+      "cycle_time_hours": 12.5,
+      "email_response_time_hours": 18.5,
+      "target_response_time": 24
+    },
+    "engagement": {
+      "social_media_engagement": 317,
+      "target_engagement": 100,
+      "email_response_rate": 0.77
+    },
+    "outstanding": {
+      "pending_tasks": 1,
+      "unpaid_invoices": 2,
+      "urgent_emails": 5
+    }
+  },
+  "bottlenecks": [
+    {
+      "type": "operational",
+      "severity": "high",
+      "area": "task_completion",
+      "description": "Task completion rate is 85.00%, below 90% target",
+      "impact": "Delays in project delivery",
+      "suggestion": "Review task assignments and workload distribution"
+    },
+    {
+      "type": "financial",
+      "severity": "high",
+      "area": "revenue",
+      "description": "Weekly revenue is below target by $700.00",
+      "impact": "Reduced cash flow and profitability",
+      "suggestion": "Review sales pipeline and client acquisition efforts"
+    }
+  ],
+  "recommendations": [
+    {
+      "category": "process_improvement",
+      "priority": "high",
+      "title": "Address Identified Bottlenecks",
+      "description": "2 bottlenecks identified requiring attention",
+      "action_items": [
+        "task_completion: Review task assignments and workload distribution",
+        "revenue: Review sales pipeline and client acquisition efforts"
+      ],
+      "expected_impact": "Improved operational efficiency"
+    }
+  ],
+  "health_scores": {
+    "financial": 100,
+    "operational": 100,
+    "engagement": 100,
+    "overall": 100.0
+  },
+  "status": "excellent",
+  "next_actions": [
+    "URGENT: Task completion rate is 85.00%, below 90% target - Review task assignments and workload distribution",
+    "URGENT: Weekly revenue is below target by $700.00 - Review sales pipeline and client acquisition efforts",
+    "IMPORTANT: Address Identified Bottlenecks - 2 bottlenecks identified requiring attention"
+  ]
+}

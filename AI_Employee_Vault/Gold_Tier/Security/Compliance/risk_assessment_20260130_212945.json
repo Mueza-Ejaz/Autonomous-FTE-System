@@ -1,0 +1,26 @@
+{
+  "assessment_date": "2026-01-30T21:29:45.517691",
+  "overall_risk_level": "high",
+  "risk_factors": [
+    {
+      "factor": "Low compliance percentage",
+      "rating": "high",
+      "description": "Overall compliance at 0.0%"
+    }
+  ],
+  "vulnerability_assessment": {
+    "high_risk_areas": [
+      "Low compliance percentage"
+    ],
+    "medium_risk_areas": [],
+    "mitigation_status": "in_progress"
+  },
+  "recommendations": [
+    {
+      "priority": "high",
+      "action": "Accelerate compliance assessment process",
+      "timeline": "Within 30 days",
+      "responsible_team": "Compliance Team"
+    }
+  ]
+}

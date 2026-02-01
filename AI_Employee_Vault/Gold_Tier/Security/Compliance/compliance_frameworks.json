@@ -1,0 +1,39 @@
+{
+  "ISO_27001": {
+    "name": "ISO/IEC 27001",
+    "description": "International standard for information security management",
+    "version": "2013",
+    "domains": 14,
+    "controls": 114,
+    "scope": "Information Security Management System"
+  },
+  "SOC_2": {
+    "name": "SOC 2",
+    "description": "Service Organization Control 2 - Trust Services Criteria",
+    "version": "2017",
+    "trust_services": [
+      "security",
+      "availability",
+      "processing",
+      "confidentiality",
+      "privacy"
+    ],
+    "controls": 78,
+    "scope": "Service Organizations"
+  },
+  "GDPR": {
+    "name": "General Data Protection Regulation",
+    "description": "EU regulation on data protection and privacy",
+    "version": "2016/679",
+    "principles": [
+      "consent",
+      "access",
+      "rectification",
+      "erasure",
+      "portability",
+      "restriction",
+      "objection"
+    ],
+    "scope": "Personal Data Processing"
+  }
+}

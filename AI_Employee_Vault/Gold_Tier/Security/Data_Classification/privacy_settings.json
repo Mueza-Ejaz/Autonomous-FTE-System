@@ -1,0 +1,15 @@
+{
+  "data_minimization_enabled": true,
+  "automatic_deletion_enabled": true,
+  "retention_periods": {
+    "temporary_data": 30,
+    "user_sessions": 90,
+    "logs": 180,
+    "backups": 365
+  },
+  "privacy_controls": {
+    "anonymization_enabled": true,
+    "pseudonymization_enabled": true,
+    "data_masking_enabled": true
+  }
+}

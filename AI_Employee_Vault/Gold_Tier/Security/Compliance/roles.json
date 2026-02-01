@@ -1,0 +1,51 @@
+{
+  "guest": {
+    "permissions": [
+      "read"
+    ],
+    "description": "Basic read-only access"
+  },
+  "user": {
+    "permissions": [
+      "read",
+      "write"
+    ],
+    "description": "Standard user with read/write access"
+  },
+  "power_user": {
+    "permissions": [
+      "read",
+      "write",
+      "execute"
+    ],
+    "description": "Power user with execution privileges"
+  },
+  "admin": {
+    "permissions": [
+      "read",
+      "write",
+      "execute",
+      "delete",
+      "admin",
+      "modify_permissions",
+      "manage_users",
+      "view_audit_logs"
+    ],
+    "description": "Administrator with full access"
+  },
+  "system": {
+    "permissions": [
+      "admin",
+      "access_sensitive_data",
+      "bypass_approval"
+    ],
+    "description": "System account with maximum privileges"
+  },
+  "auditor": {
+    "permissions": [
+      "read",
+      "view_audit_logs"
+    ],
+    "description": "Audit access only"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "task_id": "c48ae166-852a-45eb-b2d0-4c777a2faac5",
+  "name": "Complex Data Processing Task",
+  "description": "An example of a complex multi-step task that fetches, processes, and stores data with checkpointing",
+  "status": "completed",
+  "priority": "normal",
+  "created_at": "2026-01-31T15:18:43.455554",
+  "started_at": "2026-01-31T15:18:43.474043",
+  "completed_at": "2026-01-31T15:18:48.048997",
+  "current_step": 4,
+  "checkpoints": [],
+  "state_data": {
+    "data": {
+      "items": [
+        "item1",
+        "item2",
+        "item3"
+      ],
+      "processed": 6,
+      "results": [
+        "processed_item1",
+        "processed_item2",
+        "processed_item3"
+      ]
+    },
+    "step_0_result": "Data initialized",
+    "step_1_result": "Fetched 3 items",
+    "step_2_result": "Processed 3 items",
+    "storage_result": "Stored 3 results",
+    "final_result": "Task completed with 3 processed items",
+    "step_3_result": "Stored 3 results"
+  },
+  "result": "Task completed with 3 processed items",
+  "error": null,
+  "max_retries": 3,
+  "retry_count": 0
+}

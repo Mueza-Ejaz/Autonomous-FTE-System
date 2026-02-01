@@ -1,0 +1,35 @@
+{
+  "Vault/Config/": {
+    "admin": [
+      "read",
+      "write",
+      "delete"
+    ],
+    "auditor": [
+      "read"
+    ]
+  },
+  "Vault/Logs/": {
+    "admin": [
+      "read",
+      "write"
+    ],
+    "auditor": [
+      "read"
+    ]
+  },
+  "AI_Employee_Vault/Gold_Tier/": {
+    "admin": [
+      "read",
+      "write",
+      "execute"
+    ],
+    "power_user": [
+      "read",
+      "write"
+    ],
+    "user": [
+      "read"
+    ]
+  }
+}

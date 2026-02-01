@@ -1,0 +1,56 @@
+{
+  "ACCESS_001": {
+    "framework": "ISO_27001",
+    "category": "access_control",
+    "control_name": "Access Control Policy",
+    "description": "Establish and approve an access control policy",
+    "requirements": [
+      "Documented access control policy exists",
+      "Policy is reviewed annually",
+      "Policy covers all system access"
+    ],
+    "testing_procedures": [
+      "Review access control policy document",
+      "Verify policy approval date",
+      "Check policy coverage scope"
+    ],
+    "frequency": "annual",
+    "owner": "Security Team"
+  },
+  "DATA_001": {
+    "framework": "ISO_27001",
+    "category": "data_protection",
+    "control_name": "Classification of Information",
+    "description": "Classify information according to business requirements",
+    "requirements": [
+      "Information classification scheme exists",
+      "Scheme is applied consistently",
+      "Classification is reviewed regularly"
+    ],
+    "testing_procedures": [
+      "Review classification scheme document",
+      "Check sample data for classification",
+      "Verify classification review process"
+    ],
+    "frequency": "quarterly",
+    "owner": "Data Governance Team"
+  },
+  "INCIDENT_001": {
+    "framework": "ISO_27001",
+    "category": "incident_response",
+    "control_name": "Responsibility and Procedures",
+    "description": "Establish management responsibilities and procedures for incident management",
+    "requirements": [
+      "Incident management procedures exist",
+      "Roles and responsibilities defined",
+      "Incident reporting process established"
+    ],
+    "testing_procedures": [
+      "Review incident management procedures",
+      "Verify role assignments",
+      "Test incident reporting process"
+    ],
+    "frequency": "quarterly",
+    "owner": "Security Operations Center"
+  }
+}

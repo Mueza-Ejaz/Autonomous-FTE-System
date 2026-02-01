@@ -1,0 +1,52 @@
+{
+  "api_key": "",
+  "api_secret": "",
+  "access_token": "",
+  "access_token_secret": "",
+  "bearer_token": "",
+  "twitter_username": "",
+  "post_schedule": {
+    "monday": [
+      "07:00",
+      "12:00",
+      "17:00"
+    ],
+    "tuesday": [
+      "07:00",
+      "12:00",
+      "17:00"
+    ],
+    "wednesday": [
+      "07:00",
+      "12:00",
+      "17:00"
+    ],
+    "thursday": [
+      "07:00",
+      "12:00",
+      "17:00"
+    ],
+    "friday": [
+      "07:00",
+      "12:00",
+      "17:00"
+    ],
+    "saturday": [
+      "10:00",
+      "15:00"
+    ],
+    "sunday": [
+      "10:00",
+      "15:00"
+    ]
+  },
+  "default_hashtags": [
+    "#AI",
+    "#Automation",
+    "#Tech",
+    "#Business"
+  ],
+  "engagement_monitoring": true,
+  "auto_hashtag_generation": true,
+  "max_tweet_length": 280
+}

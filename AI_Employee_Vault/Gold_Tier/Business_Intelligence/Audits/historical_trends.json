@@ -1,0 +1,26 @@
+{
+  "weeks_analyzed": 8,
+  "revenue_trend": {
+    "slope": 0.05,
+    "volatility": 0.15,
+    "projection_4w": 5200
+  },
+  "expense_trend": {
+    "slope": 0.02,
+    "volatility": 0.08,
+    "projection_4w": 520
+  },
+  "profit_trend": {
+    "slope": 0.08,
+    "volatility": 0.12,
+    "projection_4w": 4680
+  },
+  "operational_trend": {
+    "task_completion_trend": 0.01,
+    "response_time_trend": -0.5,
+    "projection_4w": {
+      "completion_rate": 0.92,
+      "response_time": 16.0
+    }
+  }
+}
